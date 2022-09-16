@@ -1,0 +1,122 @@
+.tin-chi-tiet {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.tin-dir {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D93C23;
+}
+
+.chuyen-muc {
+    justify-content: space-between;
+}
+
+.item-chuyen-muc {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.item-chuyen-muc:hover {
+    background: #3B4144;
+    ;
+}
+
+.title-chi-tiet {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #3B4144;
+}
+
+.img-chi-tiet {
+    margin-top: 36px;
+    width: 100%;
+}
+
+.des-chi-tiet {
+    margin-top: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3B4144;
+}
+
+.chi-tiet-anh {
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.anh-first {
+    width: 62%;
+}
+
+.ct-anh {
+    width: 36%;
+}
+
+.ct-anh1 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3B4144;
+}
+
+.text-title {
+    margin: 36px 0 16px 0;
+}
+
+.text-pra {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3B4144;
+}
+
+.text-li {
+    margin-left: 16px;
+}
+
+.text-li-nd {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3B4144;
+    margin-top: 10px;
+}
+
+.key {
+    display: flex;
+}
+
+.key1 {
+    margin-top: 36px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #3B4144;
+    width: 168px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    line-height: 0px;
+    background: #E6E6E6;
+    border-radius: 36px;
+    color: #3B4144;
+}
+
+.btn-text {
+    float: right;
+}
