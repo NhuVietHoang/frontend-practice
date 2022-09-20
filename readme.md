@@ -6,5 +6,8 @@ link đề bài: https://www.figma.com/file/OqoskP3WsOjZYsIaXsqdm0/ReviewNha
 cách sử dụng :
 Download code và run code tại đường dẫn https://github.com/NhuVietHoang/frontend-practice hoặc truy cập website https://nhuviethoang.github.io/frontend-practice/index.html
 
+# Resposive
+1024px
+
 # Được viết bằng
 Html,css.

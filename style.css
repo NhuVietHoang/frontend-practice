@@ -72,6 +72,87 @@ a {
   display: flex;
 }
 
+.menu_mobile {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+.mobile_header {
+  height: 80px;
+  margin: 20px;
+  margin: 50px;
+}
+
+.mobile_close {
+  height: 24px;
+  color: #3B4144;
+}
+
+.mobile_logo {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.mobile_list {
+  list-style: none;
+}
+
+.mb_item {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 56px;
+  color: #3B4144;
+}
+
+.mb_btn_up {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #D93C23;
+  height: 40px;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 215px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mb_btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 22px;
+}
+
+.mb_sign_in {
+  width: 41%;
+  font-weight: 600;
+  font-size: 13px;
+  color: #3B4144;
+  border: none;
+  height: 40px;
+  border-radius: 30px;
+  background: #fff;
+}
+
+.mb_sign_up {
+  height: 40px;
+  width: 52%;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #3B4144;
+  font-weight: 600;
+  font-size: 13px;
+}
+
 .name {
   color: #272727;
   font-weight: 600;
@@ -114,7 +195,7 @@ a {
 }
 
 .banner {
-  background-image: url("./images/Rectangle 156.png");
+  background-image: url("/images/Rectangle 156.png");
   background-size: 100%;
   width: 80%;
   height: 390px;
@@ -155,6 +236,11 @@ a {
   color: #3B4144;
   margin: 0 auto;
   text-decoration: none;
+}
+
+.icon {
+  margin-top: 20px;
+  display: none;
 }
 
 .now {
@@ -411,6 +497,58 @@ a {
   line-height: 0px;
   border-radius: 70px;
   margin: 80px auto;
+}
+
+.icon:active .menu_mobile {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .content_news {
+    width: 100%;
+  }
+  .icon {
+    display: block;
+    margin: 20px;
+  }
+  .icon-menu {
+    color: #3B4144;
+  }
+  .btn {
+    display: none;
+  }
+  .header_page_list {
+    display: none;
+  }
+  .logo-icon2 {
+    display: block;
+    margin-right: 26px;
+  }
+  .li-detail {
+    margin-top: 36px;
+  }
+  .nav {
+    width: 90%;
+  }
+  .header-logo {
+    /*margin-left: -350px;*/
+    width: 50%;
+  }
+  .logo-slider,
+.logo-slider1 {
+    display: none;
+  }
+  .slide {
+    background-image: url("../image/slider.png");
+    width: 90%;
+    height: 220px;
+    border-radius: 24px;
+    margin: 0px auto;
+    /* background-position: center; */
+  }
+  .content {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
