@@ -7,7 +7,7 @@ cách sử dụng :
 Download code và run code tại đường dẫn https://github.com/NhuVietHoang/frontend-practice hoặc truy cập website https://nhuviethoang.github.io/frontend-practice/index.html
 
 # Resposive
-1024px
+width: 1024px,768px
 
 # Được viết bằng
 Html,css.
