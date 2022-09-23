@@ -546,98 +546,62 @@ body {
   color: #3B4144;
 }
 
-/*modal*/
-.modal-over {
-  z-index: 100;
+.menu_mobile {
+  display: none;
   position: fixed;
+  z-index: 10;
   top: 0;
-  bottom: 0;
-  right: 0;
-  right: 100%;
-  background: white;
-  padding: 20px;
-  /*display: none;*/
-  transition: all 0.2s;
-}
-
-.modal-over.active {
-  display: block;
-  right: 0px;
-}
-
-.modal-over.active {
   left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
 }
 
-.modal-icon-logo {
-  max-width: 140px;
-  object-fit: cover;
-  margin-left: 20px;
+.mobile_header {
+  height: 80px;
+  margin: 20px;
+  margin: 50px;
 }
 
-.modal-icon-close {
-  font-size: 30px;
+.mobile_close {
+  height: 24px;
+  color: #3B4144;
 }
 
-.modal-menu-body {
-  margin-top: 50px;
+.mobile_logo {
+  height: 30px;
+  margin-left: 10px;
 }
 
-.modal-lists {
+.mobile_list {
   list-style: none;
 }
 
-.modal-menu-item {
-  margin-bottom: 20px;
-}
-
-.modal-menu-item.active .modal-menu-item-link {
-  opacity: 1;
-  color: red;
-}
-
-.modal-menu-item-link {
+.mb_item {
+  font-weight: 700;
   font-size: 28px;
-  font-weight: 600;
-  color: black;
-  opacity: 0.6;
+  margin-top: 56px;
+  color: #3B4144;
 }
 
-.modal-action-item-post {
-  display: block;
-  text-align: center;
+.mb_btn_up {
+  width: 100%;
+  border: none;
   padding: 10px;
-  background: #D93C23;
-  border-radius: 100px;
-  color: white;
+  background-color: #D93C23;
+  height: 40px;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 215px;
+  font-size: 13px;
   font-weight: 600;
 }
 
-.modal-action-account {
+.mb_btn {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-}
-
-.modal-action-item-reg {
-  display: inline-block;
-  padding: 10px;
-  width: 40%;
-  border-radius: 100px;
-  background: black;
-  color: white;
-  font-weight: 600;
-  text-align: center;
-}
-
-.modal-action-item-login {
-  display: inline-block;
-  padding: 10px;
-  width: 40%;
-  border-radius: 100px;
-  font-weight: 600;
-  text-align: center;
-  color: black;
+  justify-content: space-around;
+  margin-top: 22px;
 }
 
 @media (min-width: 450px) {
